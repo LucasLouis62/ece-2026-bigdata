@@ -2,7 +2,10 @@
 !.gitignore
 !.python-version
 __pycache__/
+*.csv
+*.duckdb
+init.sql
+job-upload-bronze.yaml
 target/
 dbt_packages/
 logs/
-*.duckdb
